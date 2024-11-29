@@ -59,3 +59,8 @@ console.log(clonedStudentObject.graduationYear);
 let newCourses =["Data science","Statistics","Networking"]
 let mergedCourses = [...student.courses,...newCourses]
 console.log(mergedCourses)
+
+
+student.addCourses = function( newCourses) {
+    return  this.courses = [...this.courses,...newCourses]
+  };
