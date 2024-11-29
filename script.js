@@ -68,3 +68,9 @@ student.addCourses = function( newCourses) {
 console.log(`Before adding courses: ${student.courses}`)
 student.addCourses(newCourses);
 console.log(`After adding courses: ${student.courses}`)
+
+student.getNumberOfCourses = function (){
+    return this.courses.length;
+}
+
+console.log(`Total number of courses : ${student.getNumberOfCourses()}`)
