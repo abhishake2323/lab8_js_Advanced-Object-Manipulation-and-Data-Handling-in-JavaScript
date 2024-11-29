@@ -55,3 +55,7 @@ console.log(clonedStudentObject);
 
 clonedStudentObject.graduationYear = '2025'
 console.log(clonedStudentObject.graduationYear);
+
+let newCourses =["Data science","Statistics","Networking"]
+let mergedCourses = [...student.courses,...newCourses]
+console.log(mergedCourses)
