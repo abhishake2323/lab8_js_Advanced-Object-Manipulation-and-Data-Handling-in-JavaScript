@@ -44,3 +44,14 @@ let [firstScore, secondScore] = myarr;
 console.log("Array is ["+myarr+"]")
 console.log(firstScore)
 console.log(secondScore)
+
+
+//part-4 spread operator
+
+ 
+const clonedStudentObject = { ...student };
+
+console.log(clonedStudentObject);
+
+clonedStudentObject.graduationYear = '2025'
+console.log(clonedStudentObject.graduationYear);
