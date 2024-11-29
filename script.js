@@ -35,3 +35,12 @@ let { name, age, enrolled, courses } = student;
 
 console.log(name);       
 console.log(courses);    
+
+console.log("Creating an array of scores")
+
+let myarr= [85,92, 78,90];
+
+let [firstScore, secondScore] = myarr;
+console.log("Array is ["+myarr+"]")
+console.log(firstScore)
+console.log(secondScore)
