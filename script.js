@@ -74,3 +74,8 @@ student.getNumberOfCourses = function (){
 }
 
 console.log(`Total number of courses : ${student.getNumberOfCourses()}`)
+
+
+//BONUS TASK
+let myavg = myarr.reduce( (x,y) => (x+y))/myarr.length;
+console.log(`Average of ${myarr} is ${myavg}`)
