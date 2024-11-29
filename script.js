@@ -26,3 +26,12 @@ console.log(jsonString)
 
 let jsonToObject = JSON.parse(jsonString)
 console.log(jsonToObject)
+
+
+//part-3 DESTRUCTURING OBJECT
+
+console.log("De-structuring an student object")
+let { name, age, enrolled, courses } = student;
+
+console.log(name);       
+console.log(courses);    
