@@ -23,3 +23,6 @@ let jsonString= JSON.stringify(student)
 console.log(jsonString)
 
  
+
+let jsonToObject = JSON.parse(jsonString)
+console.log(jsonToObject)
