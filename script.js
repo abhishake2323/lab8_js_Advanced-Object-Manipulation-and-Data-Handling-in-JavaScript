@@ -64,3 +64,7 @@ console.log(mergedCourses)
 student.addCourses = function( newCourses) {
     return  this.courses = [...this.courses,...newCourses]
   };
+
+console.log(`Before adding courses: ${student.courses}`)
+student.addCourses(newCourses);
+console.log(`After adding courses: ${student.courses}`)
